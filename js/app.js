@@ -69,10 +69,13 @@ function animatePara() {
     myMove();
 }
 function myMove(){
-    document.getElementById("box5").style.position="relative";
-    document.getElementById("box5").style.animationName="ex";
-    document.getElementById("box5").style.animationDuration="4s";
+var elem = document.getElementById("box5"); 
+elem.style.position="relative";
+elem.style.animationName="ex";
+elem.style.animationDuration="3s";
 }
+
+
 
 
 function upper() {
